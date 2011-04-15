@@ -18,6 +18,8 @@ Include both jQuery and the lightbox_me JavaScript file before calling the plugi
 Invoke the lightbox by calling the plugin on a jQuery object:
 $(dom).lightbox_me();
 
+Close the lightbox by triggering close on the dom element that is a lightbox
+$(dom).trigger('close');
 
 
 ## License
